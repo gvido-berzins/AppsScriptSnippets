@@ -1,5 +1,8 @@
 API_URL = "http://x-x-x-x-x.ngrok.io"
 
+/*
+    More in docs: https://developers.google.com/apps-script/reference/url-fetch/url-fetch-app
+*/
 function sendDataRequest() {
   let formData = {
     "period": "20220414-20220414"
